@@ -39,14 +39,14 @@ $('.fw-brand-logo').attr('src', 'https://i.ibb.co/b3fbcyq/Screenshot-2023-08-23-
   $('.fw-brand-logo').attr('data-src', 'https://i.ibb.co/b3fbcyq/Screenshot-2023-08-23-at-10-42-42-AM-removebg-preview.png');
 $('.fs-22.semi-bold.fw-brand-name.ms-4').text('');
 $('.btn.fw-secondary-button').css("color","#a58d38");
-$(".nav-item").children("a[href^='/support/tickets/new']").css("border-color","#b0973b");
+$(".nav-item").children("a[href^='/en/support/tickets/new']").css("border-color","#b0973b");
 $('.btn.fw-secondary-button').css('background-color','#221e1c')
   
-$('.fw-category-icon').each(function() { var href = $(this).closest('.fw-horizontal').attr('href'); if (href === '/support/solutions') { $(this).html('<img src="https://i.ibb.co/k1qfSfK/Smartphone-Flat.png" alt="New Icon">'); } });
-$('.fw-category-icon').each(function() { var href = $(this).closest('.fw-horizontal').attr('href'); if (href === '/support/tickets') { $(this).html('<img src="https://i.ibb.co/dPM9F1V/Sticky-notes-Flat.png" alt="New Icon">'); } });
-$('.fw-category-icon').each(function() { var href = $(this).closest('.fw-horizontal').attr('href'); if (href === '/support/tickets/new') { $(this).html('<img src="https://i.ibb.co/gvxDFBY/Travel-Bag-Flat.png" alt="New Icon">'); } });
-$(".container-fluid") .find('.fw-section-heading') .filter(function() { return $(this).find('a[href="/support/solutions"]').length > 0; }) .find('h2') .css('color', '#221e1c');
-$(".container-fluid") .find('.fw-section-heading a[href="/support/solutions"]') .css('color', '#b0973c');
+$('.fw-category-icon').each(function() { var href = $(this).closest('.fw-horizontal').attr('href'); if (href === '/en/support/solutions') { $(this).html('<img src="https://i.ibb.co/k1qfSfK/Smartphone-Flat.png" alt="New Icon">'); } });
+$('.fw-category-icon').each(function() { var href = $(this).closest('.fw-horizontal').attr('href'); if (href === '/en/support/tickets') { $(this).html('<img src="https://i.ibb.co/dPM9F1V/Sticky-notes-Flat.png" alt="New Icon">'); } });
+$('.fw-category-icon').each(function() { var href = $(this).closest('.fw-horizontal').attr('href'); if (href === '/en/support/tickets/new') { $(this).html('<img src="https://i.ibb.co/gvxDFBY/Travel-Bag-Flat.png" alt="New Icon">'); } });
+$(".container-fluid") .find('.fw-section-heading') .filter(function() { return $(this).find('a[href="/en/support/solutions"]').length > 0; }) .find('h2') .css('color', '#221e1c');
+$(".container-fluid") .find('.fw-section-heading a[href="/en/support/solutions"]') .css('color', '#b0973c');
   $("footer .fw-credit").css('background-color','#221e1c')
   $("footer .fw-credit").css('color','#b0973b')
   $(".portal--light").css('--fw-tab-active-color','#b0973b')
@@ -56,3 +56,4 @@ $(".container-fluid") .find('.fw-section-heading a[href="/support/solutions"]') 
    
       
 </script>
+
